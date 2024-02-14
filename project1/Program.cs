@@ -33,4 +33,15 @@ bmi = weight / (height * height);
 
 Console.WriteLine($"BMI: {bmi:0.##}");
 
+sbyte signedByte = 25;
 
+byte unsignedByte = 30;
+Console.WriteLine(unsignedByte);
+Console.WriteLine(signedByte);
+
+
+short ShortValue = 3200;
+
+ushort ushortValue = 6500;
+Console.WriteLine(ushortValue);
+Console.WriteLine(ShortValue);
